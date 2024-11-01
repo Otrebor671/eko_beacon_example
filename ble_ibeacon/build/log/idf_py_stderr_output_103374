@@ -1,0 +1,7 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4080a1ac: rv_utils_wait_for_intr at /home/roberto/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:55
+ (inlined by) esp_cpu_wait_for_intr at /home/roberto/esp/esp-idf/components/esp_hw_support/cpu.c:62
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is f5f91c4e31b2fd9aab18f48e57d82f5ae0a252d3af90362fc05cb7782e3a1a41[0m
+[0m

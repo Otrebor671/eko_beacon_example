@@ -1,0 +1,83 @@
+[1/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp_ibeacon_api.c.obj
+[2/10] Performing build step for 'bootloader'
+[1/1] cd /home/roberto/esp/esp-idf/examples/bluetooth/bluedroid/ble/ble_ibeacon/build/bootloader/esp-idf/esptool_py && /home/roberto/.espressif/python_env/idf5.4_py3.12_env/bin/python /home/roberto/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/roberto/esp/esp-idf/examples/bluetooth/bluedroid/ble/ble_ibeacon/build/bootloader/bootloader.bin
+Bootloader binary size 0x54e0 bytes. 0x2b20 bytes (34%) free.
+[3/10] No install step for 'bootloader'
+[4/10] Linking C static library esp-idf/main/libmain.a
+[5/10] Completed 'bootloader'
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable ble_ibeacon_demo.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.8.dev4
+Creating esp32c6 image...
+Merged 1 ELF section
+Successfully created esp32c6 image.
+Generated /home/roberto/esp/esp-idf/examples/bluetooth/bluedroid/ble/ble_ibeacon/build/ble_ibeacon_demo.bin
+[9/10] cd /home/roberto/esp/esp-idf/examples/bluetooth/bluedroid/ble/ble_ibeacon/build/esp-idf/esptool_py && /home/roberto/.espressif/python_env/idf5.4_py3.12_env/bin/python /home/roberto/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/roberto/esp/esp-idf/examples/bluetooth/bluedroid/ble/ble_ibeacon/build/partition_table/partition-table.bin /home/roberto/esp/esp-idf/examples/bluetooth/bluedroid/ble/ble_ibeacon/build/ble_ibeacon_demo.bin
+ble_ibeacon_demo.bin binary size 0xe43c0 bytes. Smallest app partition is 0x100000 bytes. 0x1bc40 bytes (11%) free.
+[9/10] cd /home/roberto/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/roberto/esp/esp-idf -D "SERIAL_TOOL=/home/roberto/.espressif/python_env/idf5.4_py3.12_env/bin/python;;/home/roberto/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c6" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/roberto/esp/esp-idf/examples/bluetooth/bluedroid/ble/ble_ibeacon/build -P /home/roberto/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32c6 -p /dev/ttyACM1 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 ble_ibeacon_demo.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.dev4
+Serial port /dev/ttyACM1
+Connecting...
+Chip is ESP32-C6 (QFN40) (revision v0.0)
+Features: WiFi 6, BT 5, IEEE802.15.4
+Crystal is 40MHz
+MAC: 40:4c:ca:ff:fe:4d:37:9c
+BASE MAC: 40:4c:ca:4d:37:9c
+MAC_EXT: ff:fe
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000f4fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 21728 bytes to 13114...
+Writing at 0x00000000... (100 %)
+Wrote 21728 bytes (13114 compressed) at 0x00000000 in 0.3 seconds (effective 571.7 kbit/s)...
+Hash of data verified.
+Compressed 934848 bytes to 507511...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001f0b3... (6 %)
+Writing at 0x0002c191... (9 %)
+Writing at 0x0003319e... (12 %)
+Writing at 0x000385a8... (16 %)
+Writing at 0x0003ea10... (19 %)
+Writing at 0x00045330... (22 %)
+Writing at 0x0004d137... (25 %)
+Writing at 0x00054f7c... (29 %)
+Writing at 0x0005c8ec... (32 %)
+Writing at 0x00063fda... (35 %)
+Writing at 0x0006b6d0... (38 %)
+Writing at 0x000722f0... (41 %)
+Writing at 0x0007a531... (45 %)
+Writing at 0x00082177... (48 %)
+Writing at 0x0008a658... (51 %)
+Writing at 0x00092669... (54 %)
+Writing at 0x000995fc... (58 %)
+Writing at 0x000a0ac8... (61 %)
+Writing at 0x000a6f08... (64 %)
+Writing at 0x000acf69... (67 %)
+Writing at 0x000b334c... (70 %)
+Writing at 0x000b92fc... (74 %)
+Writing at 0x000bf6ec... (77 %)
+Writing at 0x000c5788... (80 %)
+Writing at 0x000cc4f9... (83 %)
+Writing at 0x000d311c... (87 %)
+Writing at 0x000d9818... (90 %)
+Writing at 0x000dfd65... (93 %)
+Writing at 0x000e5bc7... (96 %)
+Writing at 0x000ec742... (100 %)
+Wrote 934848 bytes (507511 compressed) at 0x00010000 in 4.6 seconds (effective 1616.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 598.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

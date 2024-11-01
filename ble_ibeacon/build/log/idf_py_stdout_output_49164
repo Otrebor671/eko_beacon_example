@@ -1,0 +1,748 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x0 (USB_BOOT)
+Saved PC:0x40017606
+wait usb download
+[0;32mI (278) esp_image: segment 3: paddr=000e7620 vaddr=40807b[0;32mI (457) BLE_INIT: Using main XTAL as clock source[0m
+[0;32mI (457) BLE_INIT: ble controller commit:[37bbf78][0m
+[0;32mI (457) phy_init: phy_version 290,81efd96,May  8 2024,10:42:13[0m
+[0;33mW (467) phy_init: failed to load RF calibration data (0xffffffff), falling back to full calibration[0m
+[0;32mI (537) phy: libbtbb version: f97b181, May  8 2024, 10:42:29[0m
+[0;31mE (547) BT_BTM: btm_ble_remove_resolving_list_entry_complete no pending resolving list operation[0m
+[0;32mI (557) IBEACON_DEMO: register callback[0m
+[0;32mI (557) main_task: Returned from app_main()[0m
+[0;32mI (687) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (687) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (687) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (697) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (697) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (707) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (707) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (727) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (727) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (727) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (737) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (737) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (747) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (757) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (777) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (777) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (777) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (787) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (787) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (797) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (797) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (817) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (817) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (817) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (827) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (827) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (837) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (837) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (987) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (987) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (987) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (997) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (997) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1007) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1007) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (1027) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1027) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1027) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1037) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1037) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1047) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1057) IBEACON_DEMO: RSSI of packet:-46 dbm[0m
+[0;32mI (1067) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1067) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1067) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1077) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1087) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1087) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1097) IBEACON_DEMO: RSSI of packet:-48 dbm[0m
+[0;32mI (1107) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1107) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1117) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1117) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1127) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1127) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1137) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (1157) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1157) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1157) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1167) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1167) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1177) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1187) IBEACON_DEMO: RSSI of packet:-46 dbm[0m
+[0;32mI (1337) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1337) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1337) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1347) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1347) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1357) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1367) IBEACON_DEMO: RSSI of packet:-46 dbm[0m
+[0;32mI (1377) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1377) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1377) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1387) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1397) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1397) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1407) IBEACON_DEMO: RSSI of packet:-48 dbm[0m
+[0;32mI (1427) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1427) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1427) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1437) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1437) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1447) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1457) IBEACON_DEMO: RSSI of packet:-52 dbm[0m
+[0;32mI (1467) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1467) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1467) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1477) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1487) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1487) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1497) IBEACON_DEMO: RSSI of packet:-46 dbm[0m
+[0;32mI (1517) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1517) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1517) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1527) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1527) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1537) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1547) IBEACON_DEMO: RSSI of packet:-49 dbm[0m
+[0;32mI (1557) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1557) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1557) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1567) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1577) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1577) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1587) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (1787) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1787) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1787) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1797) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1797) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1797) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1807) IBEACON_DEMO: RSSI of packet:-48 dbm[0m
+[0;32mI (1827) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1827) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1827) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1837) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1837) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1847) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1857) IBEACON_DEMO: RSSI of packet:-52 dbm[0m
+[0;32mI (1867) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1867) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1877) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1877) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1887) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1887) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1897) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (1907) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (1907) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (1917) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (1927) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (1927) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (1937) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (1937) IBEACON_DEMO: RSSI of packet:-49 dbm[0m
+[0;32mI (2087) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2087) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2087) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2097) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2097) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2107) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2117) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (2127) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2127) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2127) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2137) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2147) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2147) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2157) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (2177) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2177) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2177) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2187) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2187) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2197) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2207) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (2217) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2217) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2227) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2227) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2237) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2237) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2247) IBEACON_DEMO: RSSI of packet:-48 dbm[0m
+[0;32mI (2267) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2267) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2267) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2277) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2277) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2287) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2287) IBEACON_DEMO: RSSI of packet:-52 dbm[0m
+[0;32mI (2527) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2527) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2527) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2537) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2547) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2547) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2557) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (2577) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2577) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2577) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2587) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2597) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2597) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2607) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (2627) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2627) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2627) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2637) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2647) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2647) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2657) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (2667) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2667) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2677) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2677) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2687) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2687) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2697) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (2707) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2707) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2717) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2727) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2727) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2737) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2737) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (2757) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (2757) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (2767) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (2767) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (2777) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (2777) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (2787) IBEACON_DEMO: RSSI of packet:-52 dbm[0m
+[0;32mI (3087) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3087) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3087) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3097) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3097) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3107) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3107) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (3127) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3127) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3127) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3137) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3147) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3147) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3157) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (3177) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3177) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3177) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3187) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3187) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3197) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3207) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (3217) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3217) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3227) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3227) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3237) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3237) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3247) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (3267) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3267) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3267) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3277) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3277) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3287) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3287) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (3427) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3427) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3427) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3437) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3447) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3447) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3457) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (3467) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3467) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3477) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3477) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3487) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3487) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3497) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (3517) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3517) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3517) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3527) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3537) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3537) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3547) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (3567) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3567) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3567) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3577) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3587) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3587) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3597) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (3607) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3607) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3607) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3617) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3627) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3627) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3637) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (3787) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3787) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3787) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3797) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3797) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3807) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3807) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (3827) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3827) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3827) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3837) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3837) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3847) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3857) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (3877) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3877) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3877) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3887) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3887) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3897) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3897) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (3917) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3917) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3917) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3927) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3937) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3937) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3947) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (3967) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (3967) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (3967) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (3977) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (3987) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (3987) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (3997) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (4017) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4017) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4017) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4027) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4027) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4037) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4037) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (4067) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4067) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4067) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4077) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4077) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4087) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4087) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (4117) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4117) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4117) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4127) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4127) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4137) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4137) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (4157) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4157) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4157) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4167) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4177) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4177) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4187) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (4287) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4287) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4287) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4297) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4297) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4307) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4317) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (4327) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4327) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4327) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4337) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4347) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4347) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4357) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (4377) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4377) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4377) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4387) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4387) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4397) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4397) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (4417) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4417) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4417) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4427) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4437) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4437) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4447) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (4467) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4467) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4467) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4477) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4487) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4487) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4497) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (4507) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4507) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4517) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4517) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4527) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4527) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4537) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (4557) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4557) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4557) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4567) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4577) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4577) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4587) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (4787) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4787) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4787) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4797) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4797) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4807) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4807) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (4827) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4827) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4837) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4837) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4847) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4847) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4857) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (4877) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4877) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4887) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4887) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4897) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4897) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4907) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (4927) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4927) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4927) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4937) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4937) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4947) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4957) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (4967) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (4977) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (4977) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (4977) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (4987) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (4987) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (4997) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (5017) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5017) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5017) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5027) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5037) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5037) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5047) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (5057) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5057) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5067) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5067) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5077) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5077) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5087) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (5237) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5237) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5237) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5247) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5247) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5257) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5267) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (5277) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5277) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5287) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5287) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5297) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5297) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5307) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (5327) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5327) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5327) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5337) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5347) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5347) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5357) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (5377) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5377) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5377) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5387) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5387) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5387) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5397) IBEACON_DEMO: RSSI of packet:-48 dbm[0m
+[0;32mI (5417) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5417) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5417) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5427) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5437) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5437) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5447) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (5467) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5467) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5467) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5477) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5477) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5487) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5487) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (5507) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5507) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5507) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5517) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5527) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5527) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5537) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (5557) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5557) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5557) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5567) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5577) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5577) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5587) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (5607) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5607) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5607) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5617) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5627) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5627) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5637) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (5737) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5737) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5737) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5747) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5747) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5757) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5757) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (5777) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5777) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5777) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5787) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5797) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5797) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5807) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (5827) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5827) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5827) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5837) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5837) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5847) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5857) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (5867) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5867) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5867) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5877) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5887) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5887) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5897) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (5917) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5917) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5917) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5927) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5937) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5937) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5947) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (5967) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (5967) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (5967) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (5977) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (5977) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (5987) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (5997) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (6017) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6017) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6017) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6027) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6027) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6037) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6047) IBEACON_DEMO: RSSI of packet:-51 dbm[0m
+[0;32mI (6067) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6067) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6067) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6077) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6077) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6087) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6087) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (6427) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6437) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6437) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6437) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6447) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6447) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6457) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (6477) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6477) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6477) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6487) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6487) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6497) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6497) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (6517) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6517) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6517) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6527) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6537) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6537) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6547) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (6567) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6567) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6567) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6577) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6577) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6587) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6597) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (6617) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6617) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6617) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6627) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6627) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6637) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6637) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (6667) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6667) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6667) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6677) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6677) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6687) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6687) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (6707) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6707) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6707) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6717) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6727) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6727) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6737) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (6877) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6877) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6877) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6887) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6897) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6897) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6907) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (6967) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (6967) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (6967) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (6977) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (6987) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (6987) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (6997) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (7017) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7017) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7017) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7027) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7037) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7037) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7047) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (7067) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7067) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7067) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7077) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7077) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7077) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7087) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (7107) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7107) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7107) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7117) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7127) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7127) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7137) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (7427) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7427) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7437) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7437) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7447) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7447) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7457) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (7477) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7477) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7477) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7487) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7487) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7497) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7497) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (7527) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7527) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7527) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7537) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7537) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7547) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7547) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (7577) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7577) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7577) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7587) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7587) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7597) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7597) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (7617) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7617) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7627) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7627) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7637) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7637) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7647) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (7667) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7667) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7677) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7677) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7687) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7687) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7697) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (7717) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7717) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7717) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7727) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7737) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7737) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7747) IBEACON_DEMO: RSSI of packet:-53 dbm[0m
+[0;32mI (7767) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (7767) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (7767) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (7777) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (7777) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (7787) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (7787) IBEACON_DEMO: RSSI of packet:-48 dbm[0m
+[0;32mI (8087) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (8087) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (8087) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (8097) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (8097) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (8107) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (8107) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (8127) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (8127) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (8127) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (8137) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (8147) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (8147) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (8157) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
+[0;32mI (8167) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (8167) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (8177) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (8177) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (8187) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (8187) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (8197) IBEACON_DEMO: RSSI of packet:-54 dbm[0m
+[0;32mI (8217) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (8217) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (8217) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (8227) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (8237) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (8237) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (8247) IBEACON_DEMO: RSSI of packet:-47 dbm[0m
+[0;32mI (8257) IBEACON_DEMO: ----------iBeacon Found----------[0m
+[0;32mI (8267) IBEACON_DEMO: Device address:: 40 4c ca 4d 37 9e[0m
+[0;32mI (8267) IBEACON_DEMO: Proximity UUID:: fd a5 06 93 a4 e2 4f b1 af cf c6 eb 07 64 78 25[0m
+[0;32mI (8267) IBEACON_DEMO: Major: 0x27b7 (10167)[0m
+[0;32mI (8277) IBEACON_DEMO: Minor: 0xf206 (61958)[0m
+[0;32mI (8277) IBEACON_DEMO: Measured power (RSSI at a 1m distance):-59 dbm[0m
+[0;32mI (8287) IBEACON_DEMO: RSSI of packet:-50 dbm[0m
